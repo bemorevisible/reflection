@@ -1,0 +1,30 @@
+$footerSize: 12vh;
+$blur: 6px;
+$opacity: 0.75;
+
+.reflective {
+  min-height:100vh;
+  padding-bottom:$footerSize;
+}
+
+.reflection-container {
+  position:fixed;
+  bottom:0px;
+  height:$footerSize;
+  width:100%;
+  overflow:hidden;
+  background-color:#000;
+  border-top:1px solid #999;
+  &.top {
+    top:0px;
+    bottom:auto;
+    border-top:none;
+    border-bottom:1px solid #999;
+  }
+}
+
+.reflection {
+  filter: blur($blur);
+  opacity:$opacity;
+  transform:scale(1,-1);
+}

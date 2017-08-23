@@ -1,0 +1,24 @@
+.reflective {
+  min-height: 100vh;
+  padding-bottom: 12vh; }
+
+.reflection-container {
+  position: fixed;
+  bottom: 0px;
+  height: 12vh;
+  width: 100%;
+  overflow: hidden;
+  background-color: #000;
+  border-top: 1px solid #999; }
+  .reflection-container.top {
+    top: 0px;
+    bottom: auto;
+    border-top: none;
+    border-bottom: 1px solid #999; }
+
+.reflection {
+  -webkit-filter: blur(6px);
+  filter: blur(6px);
+  opacity: 0.75;
+  -webkit-transform: scale(1, -1);
+  transform: scale(1, -1); }

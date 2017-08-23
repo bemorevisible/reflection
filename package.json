@@ -1,0 +1,14 @@
+{
+  "name": "reflection",
+  "version": "1.0.0",
+  "description": "Reflect the page content in a sticky header or footer",
+  "main": "js/reflection.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-sass": "^3.1.0"
+  },
+  "author": "Steve Gavette",
+  "license": "ISC"
+}

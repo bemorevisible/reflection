@@ -1,0 +1,106 @@
+<html>
+  <title>Reflection Demo</title>
+  <script src="js/reflection.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"></link>
+  <link rel="stylesheet" type="text/css" href="css/style.css"></link>
+  <body>
+    <div style="position:fixed;right:10px;bottom:13vh;width:100px;background-color:white;box-shadow:5px 5px 0px rgba(0,0,0,0.1);color:black;padding:5px;"><a href="#" onclick="document.querySelector('.reflection-container').classList.toggle('top');moveReflection();return false;">Toggle Reflection Location</a></div>
+    <div class="reflective">
+      <div style="background: linear-gradient(to right, #4ca1af, #c4e0e5);padding:100px;">
+        <div style="margin:0px auto;max-width:600px;padding:50px;background-color:#fff;box-shadow:5px 5px 0px rgba(0,0,0,0.1);box-sizing:border-box;">
+          <h1>Reflection.js</h1>
+          <h2>Reflects page content to a header or a footer</h2>
+          <p>Simply wrap your content in div.reflective and add a div.reflection-container outside of the div.reflective wrapper.</p>
+          <p>Works with horizontal and vertical scrolling.</p>
+          <p>Defaults to reflecting on the bottom.  Add the class "top" to your div.reflection-container to move the reflection to the top.</p>
+          <p><img src="http://lorempixel.com/500/300" style="max-width:100%;" /></p>
+          <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+          <p> Expedita repudiandae sunt voluptates iusto iure numquam animi, asperiores porro, recusandae odit unde eligendi sint libero et sit officia optio velit quos?
+          Fugiat, temporibus sequi! Ad cupiditate cum exercitationem quae aliquam eos obcaecati aspernatur quasi. Enim quia corrupti fuga accusamus id natus minima, sed nemo ducimus omnis veniam. Temporibus perferendis ex aliquid!
+          Itaque quae aperiam ipsum distinctio voluptatem. Dolore qui, nisi explicabo eveniet doloribus ipsam sequi molestiae facere officiis temporibus eaque atque unde tenetur. Accusantium animi reprehenderit, ab veniam temporibus totam quidem.
+          Deserunt aspernatur id libero ea labore praesentium ab repellendus ipsam odio quaerat porro sequi exercitationem ex, cum a sit sed accusamus dolorum eius, dolores nulla inventore similique repudiandae! Reprehenderit, repellat?
+          Excepturi blanditiis aut labore unde perspiciatis suscipit beatae, debitis aliquam atque quam mollitia repellat. Rerum expedita veniam dicta a voluptates quas fugit esse deserunt quae! Suscipit, impedit! Minima, vero dolore.</p>
+          <p><img src="http://lorempixel.com/500/400" style="max-width:100%;" /></p>
+          <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+          <p> Expedita repudiandae sunt voluptates iusto iure numquam animi, asperiores porro, recusandae odit unde eligendi sint libero et sit officia optio velit quos?
+          Fugiat, temporibus sequi! Ad cupiditate cum exercitationem quae aliquam eos obcaecati aspernatur quasi. Enim quia corrupti fuga accusamus id natus minima, sed nemo ducimus omnis veniam. Temporibus perferendis ex aliquid!
+          Itaque quae aperiam ipsum distinctio voluptatem. Dolore qui, nisi explicabo eveniet doloribus ipsam sequi molestiae facere officiis temporibus eaque atque unde tenetur. Accusantium animi reprehenderit, ab veniam temporibus totam quidem.
+          Deserunt aspernatur id libero ea labore praesentium ab repellendus ipsam odio quaerat porro sequi exercitationem ex, cum a sit sed accusamus dolorum eius, dolores nulla inventore similique repudiandae! Reprehenderit, repellat?
+          Excepturi blanditiis aut labore unde perspiciatis suscipit beatae, debitis aliquam atque quam mollitia repellat. Rerum expedita veniam dicta a voluptates quas fugit esse deserunt quae! Suscipit, impedit! Minima, vero dolore.</p>
+          <p><img src="http://lorempixel.com/500/200" style="max-width:100%;" /></p>
+          <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+          <p> Expedita repudiandae sunt voluptates iusto iure numquam animi, asperiores porro, recusandae odit unde eligendi sint libero et sit officia optio velit quos?
+          Fugiat, temporibus sequi! Ad cupiditate cum exercitationem quae aliquam eos obcaecati aspernatur quasi. Enim quia corrupti fuga accusamus id natus minima, sed nemo ducimus omnis veniam. Temporibus perferendis ex aliquid!
+          Itaque quae aperiam ipsum distinctio voluptatem. Dolore qui, nisi explicabo eveniet doloribus ipsam sequi molestiae facere officiis temporibus eaque atque unde tenetur. Accusantium animi reprehenderit, ab veniam temporibus totam quidem.
+          Deserunt aspernatur id libero ea labore praesentium ab repellendus ipsam odio quaerat porro sequi exercitationem ex, cum a sit sed accusamus dolorum eius, dolores nulla inventore similique repudiandae! Reprehenderit, repellat?
+          Excepturi blanditiis aut labore unde perspiciatis suscipit beatae, debitis aliquam atque quam mollitia repellat. Rerum expedita veniam dicta a voluptates quas fugit esse deserunt quae! Suscipit, impedit! Minima, vero dolore.</p>
+          <p><img src="http://lorempixel.com/500/350" style="max-width:100%;" /></p>
+          <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+          <p> Expedita repudiandae sunt voluptates iusto iure numquam animi, asperiores porro, recusandae odit unde eligendi sint libero et sit officia optio velit quos?
+          Fugiat, temporibus sequi! Ad cupiditate cum exercitationem quae aliquam eos obcaecati aspernatur quasi. Enim quia corrupti fuga accusamus id natus minima, sed nemo ducimus omnis veniam. Temporibus perferendis ex aliquid!
+          Itaque quae aperiam ipsum distinctio voluptatem. Dolore qui, nisi explicabo eveniet doloribus ipsam sequi molestiae facere officiis temporibus eaque atque unde tenetur. Accusantium animi reprehenderit, ab veniam temporibus totam quidem.
+          Deserunt aspernatur id libero ea labore praesentium ab repellendus ipsam odio quaerat porro sequi exercitationem ex, cum a sit sed accusamus dolorum eius, dolores nulla inventore similique repudiandae! Reprehenderit, repellat?
+          Excepturi blanditiis aut labore unde perspiciatis suscipit beatae, debitis aliquam atque quam mollitia repellat. Rerum expedita veniam dicta a voluptates quas fugit esse deserunt quae! Suscipit, impedit! Minima, vero dolore.</p>
+          <p><img src="http://lorempixel.com/500/600" style="max-width:100%;" /></p>
+          <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+          <p> Expedita repudiandae sunt voluptates iusto iure numquam animi, asperiores porro, recusandae odit unde eligendi sint libero et sit officia optio velit quos?
+          Fugiat, temporibus sequi! Ad cupiditate cum exercitationem quae aliquam eos obcaecati aspernatur quasi. Enim quia corrupti fuga accusamus id natus minima, sed nemo ducimus omnis veniam. Temporibus perferendis ex aliquid!
+          Itaque quae aperiam ipsum distinctio voluptatem. Dolore qui, nisi explicabo eveniet doloribus ipsam sequi molestiae facere officiis temporibus eaque atque unde tenetur. Accusantium animi reprehenderit, ab veniam temporibus totam quidem.
+          Deserunt aspernatur id libero ea labore praesentium ab repellendus ipsam odio quaerat porro sequi exercitationem ex, cum a sit sed accusamus dolorum eius, dolores nulla inventore similique repudiandae! Reprehenderit, repellat?
+          Excepturi blanditiis aut labore unde perspiciatis suscipit beatae, debitis aliquam atque quam mollitia repellat. Rerum expedita veniam dicta a voluptates quas fugit esse deserunt quae! Suscipit, impedit! Minima, vero dolore.</p>
+          <p><img src="http://lorempixel.com/500/450" style="max-width:100%;" /></p>
+          <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+          <p> Expedita repudiandae sunt voluptates iusto iure numquam animi, asperiores porro, recusandae odit unde eligendi sint libero et sit officia optio velit quos?
+          Fugiat, temporibus sequi! Ad cupiditate cum exercitationem quae aliquam eos obcaecati aspernatur quasi. Enim quia corrupti fuga accusamus id natus minima, sed nemo ducimus omnis veniam. Temporibus perferendis ex aliquid!
+          Itaque quae aperiam ipsum distinctio voluptatem. Dolore qui, nisi explicabo eveniet doloribus ipsam sequi molestiae facere officiis temporibus eaque atque unde tenetur. Accusantium animi reprehenderit, ab veniam temporibus totam quidem.
+          Deserunt aspernatur id libero ea labore praesentium ab repellendus ipsam odio quaerat porro sequi exercitationem ex, cum a sit sed accusamus dolorum eius, dolores nulla inventore similique repudiandae! Reprehenderit, repellat?
+          Excepturi blanditiis aut labore unde perspiciatis suscipit beatae, debitis aliquam atque quam mollitia repellat. Rerum expedita veniam dicta a voluptates quas fugit esse deserunt quae! Suscipit, impedit! Minima, vero dolore.</p>
+          <p><img src="http://lorempixel.com/500/500" style="max-width:100%;" /></p>
+          <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+          <p> Expedita repudiandae sunt voluptates iusto iure numquam animi, asperiores porro, recusandae odit unde eligendi sint libero et sit officia optio velit quos?
+          Fugiat, temporibus sequi! Ad cupiditate cum exercitationem quae aliquam eos obcaecati aspernatur quasi. Enim quia corrupti fuga accusamus id natus minima, sed nemo ducimus omnis veniam. Temporibus perferendis ex aliquid!
+          Itaque quae aperiam ipsum distinctio voluptatem. Dolore qui, nisi explicabo eveniet doloribus ipsam sequi molestiae facere officiis temporibus eaque atque unde tenetur. Accusantium animi reprehenderit, ab veniam temporibus totam quidem.
+          Deserunt aspernatur id libero ea labore praesentium ab repellendus ipsam odio quaerat porro sequi exercitationem ex, cum a sit sed accusamus dolorum eius, dolores nulla inventore similique repudiandae! Reprehenderit, repellat?
+          Excepturi blanditiis aut labore unde perspiciatis suscipit beatae, debitis aliquam atque quam mollitia repellat. Rerum expedita veniam dicta a voluptates quas fugit esse deserunt quae! Suscipit, impedit! Minima, vero dolore.</p>
+          <p><img src="http://lorempixel.com/500/550" style="max-width:100%;" /></p>
+          <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+          <p> Expedita repudiandae sunt voluptates iusto iure numquam animi, asperiores porro, recusandae odit unde eligendi sint libero et sit officia optio velit quos?
+          Fugiat, temporibus sequi! Ad cupiditate cum exercitationem quae aliquam eos obcaecati aspernatur quasi. Enim quia corrupti fuga accusamus id natus minima, sed nemo ducimus omnis veniam. Temporibus perferendis ex aliquid!
+          Itaque quae aperiam ipsum distinctio voluptatem. Dolore qui, nisi explicabo eveniet doloribus ipsam sequi molestiae facere officiis temporibus eaque atque unde tenetur. Accusantium animi reprehenderit, ab veniam temporibus totam quidem.
+          Deserunt aspernatur id libero ea labore praesentium ab repellendus ipsam odio quaerat porro sequi exercitationem ex, cum a sit sed accusamus dolorum eius, dolores nulla inventore similique repudiandae! Reprehenderit, repellat?
+          Excepturi blanditiis aut labore unde perspiciatis suscipit beatae, debitis aliquam atque quam mollitia repellat. Rerum expedita veniam dicta a voluptates quas fugit esse deserunt quae! Suscipit, impedit! Minima, vero dolore.</p>
+          <p><img src="http://lorempixel.com/500/900" style="max-width:100%;" /></p>
+          <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+          <p> Expedita repudiandae sunt voluptates iusto iure numquam animi, asperiores porro, recusandae odit unde eligendi sint libero et sit officia optio velit quos?
+          Fugiat, temporibus sequi! Ad cupiditate cum exercitationem quae aliquam eos obcaecati aspernatur quasi. Enim quia corrupti fuga accusamus id natus minima, sed nemo ducimus omnis veniam. Temporibus perferendis ex aliquid!
+          Itaque quae aperiam ipsum distinctio voluptatem. Dolore qui, nisi explicabo eveniet doloribus ipsam sequi molestiae facere officiis temporibus eaque atque unde tenetur. Accusantium animi reprehenderit, ab veniam temporibus totam quidem.
+          Deserunt aspernatur id libero ea labore praesentium ab repellendus ipsam odio quaerat porro sequi exercitationem ex, cum a sit sed accusamus dolorum eius, dolores nulla inventore similique repudiandae! Reprehenderit, repellat?
+          Excepturi blanditiis aut labore unde perspiciatis suscipit beatae, debitis aliquam atque quam mollitia repellat. Rerum expedita veniam dicta a voluptates quas fugit esse deserunt quae! Suscipit, impedit! Minima, vero dolore.</p>
+          <p><img src="http://lorempixel.com/500/800" style="max-width:100%;" /></p>
+          <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+          <p> Expedita repudiandae sunt voluptates iusto iure numquam animi, asperiores porro, recusandae odit unde eligendi sint libero et sit officia optio velit quos?
+          Fugiat, temporibus sequi! Ad cupiditate cum exercitationem quae aliquam eos obcaecati aspernatur quasi. Enim quia corrupti fuga accusamus id natus minima, sed nemo ducimus omnis veniam. Temporibus perferendis ex aliquid!
+          Itaque quae aperiam ipsum distinctio voluptatem. Dolore qui, nisi explicabo eveniet doloribus ipsam sequi molestiae facere officiis temporibus eaque atque unde tenetur. Accusantium animi reprehenderit, ab veniam temporibus totam quidem.
+          Deserunt aspernatur id libero ea labore praesentium ab repellendus ipsam odio quaerat porro sequi exercitationem ex, cum a sit sed accusamus dolorum eius, dolores nulla inventore similique repudiandae! Reprehenderit, repellat?
+          Excepturi blanditiis aut labore unde perspiciatis suscipit beatae, debitis aliquam atque quam mollitia repellat. Rerum expedita veniam dicta a voluptates quas fugit esse deserunt quae! Suscipit, impedit! Minima, vero dolore.</p>
+          <p><img src="http://lorempixel.com/500/700" style="max-width:100%;" /></p>
+          <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+          <p> Expedita repudiandae sunt voluptates iusto iure numquam animi, asperiores porro, recusandae odit unde eligendi sint libero et sit officia optio velit quos?
+          Fugiat, temporibus sequi! Ad cupiditate cum exercitationem quae aliquam eos obcaecati aspernatur quasi. Enim quia corrupti fuga accusamus id natus minima, sed nemo ducimus omnis veniam. Temporibus perferendis ex aliquid!
+          Itaque quae aperiam ipsum distinctio voluptatem. Dolore qui, nisi explicabo eveniet doloribus ipsam sequi molestiae facere officiis temporibus eaque atque unde tenetur. Accusantium animi reprehenderit, ab veniam temporibus totam quidem.
+          Deserunt aspernatur id libero ea labore praesentium ab repellendus ipsam odio quaerat porro sequi exercitationem ex, cum a sit sed accusamus dolorum eius, dolores nulla inventore similique repudiandae! Reprehenderit, repellat?
+          Excepturi blanditiis aut labore unde perspiciatis suscipit beatae, debitis aliquam atque quam mollitia repellat. Rerum expedita veniam dicta a voluptates quas fugit esse deserunt quae! Suscipit, impedit! Minima, vero dolore.</p>
+          <p><img src="http://lorempixel.com/500/850" style="max-width:100%;" /></p>
+          <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+          <p> Expedita repudiandae sunt voluptates iusto iure numquam animi, asperiores porro, recusandae odit unde eligendi sint libero et sit officia optio velit quos?
+          Fugiat, temporibus sequi! Ad cupiditate cum exercitationem quae aliquam eos obcaecati aspernatur quasi. Enim quia corrupti fuga accusamus id natus minima, sed nemo ducimus omnis veniam. Temporibus perferendis ex aliquid!
+          Itaque quae aperiam ipsum distinctio voluptatem. Dolore qui, nisi explicabo eveniet doloribus ipsam sequi molestiae facere officiis temporibus eaque atque unde tenetur. Accusantium animi reprehenderit, ab veniam temporibus totam quidem.
+          Deserunt aspernatur id libero ea labore praesentium ab repellendus ipsam odio quaerat porro sequi exercitationem ex, cum a sit sed accusamus dolorum eius, dolores nulla inventore similique repudiandae! Reprehenderit, repellat?
+          Excepturi blanditiis aut labore unde perspiciatis suscipit beatae, debitis aliquam atque quam mollitia repellat. Rerum expedita veniam dicta a voluptates quas fugit esse deserunt quae! Suscipit, impedit! Minima, vero dolore.</p>
+        </div>
+      </div>
+    </div>
+    <div class="reflection-container">
+    </div>
+  </body>
+</html>
